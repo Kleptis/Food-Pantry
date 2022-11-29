@@ -1,6 +1,8 @@
 <?php
 require('database.php');
-
+// $conn = OpenCon();
+// echo "connected successfully";
+// CloseCon($conn);
 // $USER_ID = filter_input(INPUT_GET, 'USER_ID', FILTER_VALIDATE_INT);
 // if ($USER_ID == NULL || $USER_ID == FALSE) {
 //     $USER_ID = 1;
