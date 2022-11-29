@@ -1,7 +1,29 @@
+<?php
+require('database.php');
+
+// $USER_ID = filter_input(INPUT_GET, 'USER_ID', FILTER_VALIDATE_INT);
+// if ($USER_ID == NULL || $USER_ID == FALSE) {
+//     $USER_ID = 1;
+// }
+// // Get name for selected category
+
+// $queryCategory = 'SELECT * FROM users WHERE USER_ID = :USER_ID';
+// $statement1 = $db->prepare($queryCategory);
+// $statement1->bindValue(':USER_ID', $USER_ID);
+// $statement1->execute();
+// $category = $statement1->fetch();
+// $statement1->closeCursor();
+
+// // Get all users
+// $queryAllCategories = 'SELECT * FROM users ORDER BY USER_ID';
+// $statement2 = $db->prepare($queryAllCategories);
+// $statement2->execute();
+// $category = $statement2->fetchAll();
+// $statement2->closeCursor();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
   <title>Food Pantry Web Technology</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +43,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="main.html">Home</a>
+        <a class="nav-link" href="main.php">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="order.html">Inventory</a>
