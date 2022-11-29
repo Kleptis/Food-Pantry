@@ -1,0 +1,12 @@
+h1 {
+  color: black;
+  text-align: left;
+  text-decoration: underline;
+}
+h2 {
+  color: black;
+  text-align: left;
+}
+.intro {
+  /* background-color: yellow; */
+}
